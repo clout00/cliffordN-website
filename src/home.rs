@@ -2,10 +2,8 @@ use yew::prelude::*;
 
 #[function_component]
 pub fn App() -> Html {
-    
     html! {
         <div class="container">
-
         <div id="navigation-bar">
           <nav>
             <ul>
@@ -37,7 +35,6 @@ pub fn App() -> Html {
           <p>{"Some text some text some text some text"}</p>
           <p>{"Some text some text some text some text"}</p>
         </div>
-      
       </div>
-    }
+   }
 }
